@@ -1,5 +1,5 @@
 <script >
-import Voting from "./voting.vue";
+import Voting from "./Voting.vue";
 export default {
   components: { Voting }
 }
