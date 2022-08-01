@@ -41,9 +41,7 @@ export default {
          * @param {*} groupId 
          */
         getVoteColor(groupId) {
-            console.log(this.$store);
             let groupSelected = this.getGroups.find(g => g.id === groupId).groupSelected;
-            console.log(groupSelected)
             return (groupSelected) ? "#253CF2" : "#343A40";
         },
 
@@ -52,8 +50,7 @@ export default {
          * @param {*} groupId 
          */
         getVoteBackground(groupId) {
-            console.log(this.$store);
-            let groupSelected = (this.$store.getters["isGroupSelected"]) ? true : false;
+            let groupSelected = this.getGroups.find(g => g.id === groupId).groupSelected;
             return (groupSelected) ? "#E5E8FD" : "#F4F6F8";
         }
 
