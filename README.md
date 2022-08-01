@@ -15,7 +15,7 @@ The states are managed using vuex
 
 Clone the project from the repository
 ```sh
-
+https://github.com/tkrishna1003/upvote-project.git
 ```
 
 After cloning move to the project folder and install the packages required for the application by entering the following command in terminal
